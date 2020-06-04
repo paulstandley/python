@@ -40,3 +40,18 @@ oxygen = {"number":8,"weight":15.999,"symbol":"O"}  # create a new oxygen dictio
 print(hydrogen_weight) 
 elements["oxygen"] = oxygen  # assign 'oxygen' as a key to the elements dictionary
 print('elements = ', elements)
+
+elements1 = {'hydrogen': 
+      {'number': 1, 'weight':    1.00794, 'symbol': 'H'},
+            'helium': 
+      {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
+
+# todo: Add an 'is_noble_gas' entry to the hydrogen and helium dictionaries
+# hint: helium is a noble gas, hydrogen isn't
+is_noble_gas = {'is_noble_gas' : False}
+elements1['hydrogen'] = is_noble_gas
+is_noble_gas1 = {'is_noble_gas' : True}
+elements1['helium'] = is_noble_gas1
+
+print(elements1['hydrogen']['is_noble_gas'])
+print(elements1['helium']['is_noble_gas'])
