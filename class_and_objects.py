@@ -1,3 +1,4 @@
+
 # define vehicle class
 class Vehicle:
     """A vehicle class with method description"""
